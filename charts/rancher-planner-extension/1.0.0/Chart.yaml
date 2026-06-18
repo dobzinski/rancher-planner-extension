@@ -1,8 +1,0 @@
-apiVersion: v2
-name: rancher-planner-extension
-description: Planner extension for planning cluster updates and tasks
-version: 1.0.0
-annotations:
-  catalog.cattle.io/ui-component: rancher-planner-extension
-  catalog.cattle.io/display-name: "Planner Extension"
-  catalog.cattle.io/type: cluster-extension
