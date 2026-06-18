@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  rancher-planner-extension:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-06-18T17:14:33.844078393-03:00"
+    description: rancher-planner-extension plugin
+    digest: f6ce6a477b534772946a82fcc5107ad99464b55a4eaa0ba0035e04bbad8be0e1
+    name: rancher-planner-extension
+    type: application
+    urls:
+    - assets/rancher-planner-extension/rancher-planner-extension-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-06-18T17:14:33.843299884-03:00"
