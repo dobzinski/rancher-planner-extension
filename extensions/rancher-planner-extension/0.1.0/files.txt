@@ -1,3 +1,0 @@
-plugin/package.json
-plugin/rancher-planner-extension-0.1.0.umd.min.js
-plugin/rancher-planner-extension-0.1.0.umd.min.js.map
